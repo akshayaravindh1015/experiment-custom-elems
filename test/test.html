@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ExperimentCustomElems</title>
+    <base href="/" />
+    <link rel="stylesheet" href="./test.css" />
+    <script src="./custom-button-element-1.js"></script>
+    <script src="./custom-button-element-2.js"></script>
+  </head>
+  <body>
+    <h2>
+      This page is trying to import 2 custom defined element(using angular
+      elements) <b>with same tag name.. <i>1-green, 2-orange</i></b>
+    </h2>
+    <custom-button value="Custom Button 1"></custom-button>
+    <hr />
+    <custom-button value="Custom Button 2"></custom-button>
+    <p>
+      Even though there is an error in the console.. the element which imported
+      first is taking priority..
+    </p>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Id": "Policy1647011993105",
+  "Statement": [
+    {
+      "Sid": "Stmt1647011984555",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::experiment-custom-elems/*"
+    }
+  ]
+}
